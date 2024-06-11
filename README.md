@@ -13,7 +13,9 @@ Facial Recognition and Ok sign detection using popular libraries such as OpenCv,
 ├── 02_create_clusters.py     # Script to cluster face images using K-Means and VGG16
 ├── 03_rearrange_data.py      # Script to rearrange data after clustering
 ├── 04_train_model.py         # Script to train the LBPH face recognizer model
-├── 05_make_predictions.py    # Script to run face recognition and hand gesture detection
+├── 05_add_ok_column.py       # Script to alter customers table and add ok_sign_detected column
+├── 06_test_ok_sign.py        # Script to OK sign detection
+├── 07_make_predictions.py    # Script to run face recognition and OK sign detection
 ├── customer_faces_data.db    # SQLite database to store customer information and face images
 └── README.md
 ```
